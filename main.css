@@ -1,0 +1,39 @@
+* {
+  border: none;
+  margin: 0;
+  padding: 0;
+  background-color: #0F2349;
+  text-align: center;
+
+}
+
+
+h1, h2 {
+  color: #FFFFFF;
+  font-family: 'Bree Serif', serif;
+  font-size: 52px;
+  margin-top: 20px;
+}
+
+@keyframes grow {
+    from {
+      height: 100px;
+    } to {
+      height: 340px;
+    }
+}
+
+img {
+  height: 800px;
+  /* background-color: #5EB19E; */
+  animation-name: dk;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+
+
+span {
+  color: #FE6B25;
+  font-size: 76px;
+}
